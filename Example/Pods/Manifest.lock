@@ -1,0 +1,16 @@
+PODS:
+  - EasyNetRequest (0.1.0)
+
+DEPENDENCIES:
+  - EasyNetRequest (from `../`)
+
+EXTERNAL SOURCES:
+  EasyNetRequest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyNetRequest: 513b2a7a9a50f8b79c6d73507cb65aa311f12134
+
+PODFILE CHECKSUM: ae5158c144912d7eba8b183133ab2ed537600ec4
+
+COCOAPODS: 1.8.4

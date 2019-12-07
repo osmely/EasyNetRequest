@@ -1,0 +1,6 @@
+framework module EasyNetRequest {
+  umbrella header "EasyNetRequest-umbrella.h"
+
+  export *
+  module * { export * }
+}

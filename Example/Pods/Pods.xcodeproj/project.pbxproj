@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0156C80D912245A4D590653BC70F9353 /* Pods-EasyNetRequest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2182E0F46B6F15FCD0A2A6DD1395E65A /* Pods-EasyNetRequest_Example-dummy.m */; };
+		276D8FE7D42DA96376417E7867BEA804 /* EasyNetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2734544180A347ADFC37E5B18F94296 /* EasyNetRequest.swift */; };
+		2B6B87F800A1349BE59083116B1342EA /* Pods-EasyNetRequest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C1C34044868E44B222F5382F876C56C /* Pods-EasyNetRequest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34B750820A2BACC3CD0B41EE93F3993D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4E7CE69E35A610101D690ABB4DF9AFDD /* EasyNetRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B3809638AF8681A2A17FC87FD39654 /* EasyNetRequest-dummy.m */; };
+		68B17FA7E901379673879CF48177AF3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8FBCE5A59FBD4C32C999D2484BF38CEF /* Pods-EasyNetRequest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF2E6E413BDF793F33C571F234446AC /* Pods-EasyNetRequest_Tests-dummy.m */; };
+		A363CC92CF23FFC3DF53802C4B0A06A8 /* Pods-EasyNetRequest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD9BDDD2629A3382DBB0D918F639759F /* Pods-EasyNetRequest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C54D645D55D9DFE3DB34FAC85956CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C62A4B2DFF4E6823489CB9E2FAE07C81 /* EasyNetRequest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 264EB48B01B8C0B74670739452CF71AC /* EasyNetRequest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF1714ADFBE52C50125B3753D145DDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3316AAE497A983A9A9CD67B699BD4376;
+			remoteInfo = EasyNetRequest;
+		};
+		5C236B3DCD9B353CB32A5B0A048479B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C21B5B7FFE7E4FD3041A69F277ED812E;
+			remoteInfo = "Pods-EasyNetRequest_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		061A4B2319244A52DAC201B685C519BA /* EasyNetRequest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EasyNetRequest.modulemap; sourceTree = "<group>"; };
+		1580C0EE0CAE39AF3394C9E698537AB8 /* Pods-EasyNetRequest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNetRequest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1BB285327234676A58EC1792B54571D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1C2A10458DF3ED23B3C5261C3E1FE2E2 /* Pods-EasyNetRequest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyNetRequest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2182E0F46B6F15FCD0A2A6DD1395E65A /* Pods-EasyNetRequest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyNetRequest_Example-dummy.m"; sourceTree = "<group>"; };
+		264EB48B01B8C0B74670739452CF71AC /* EasyNetRequest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNetRequest-umbrella.h"; sourceTree = "<group>"; };
+		2C757E825977739BC8A6F24209114C8F /* EasyNetRequest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyNetRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFA71E18F58D8DCC6C7F03C40E1E3F7 /* Pods-EasyNetRequest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyNetRequest_Tests-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33305C8F4C675876314CE7DB371B4E81 /* Pods-EasyNetRequest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNetRequest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B9FE3B3C4679238B9DA41CA1DD78783 /* Pods-EasyNetRequest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyNetRequest_Example-Info.plist"; sourceTree = "<group>"; };
+		508F90067CDD9F7A25835437FAF31B84 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		514ECF42DDB3E29B4F91C5A6FB53D4F4 /* Pods_EasyNetRequest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyNetRequest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1C34044868E44B222F5382F876C56C /* Pods-EasyNetRequest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyNetRequest_Example-umbrella.h"; sourceTree = "<group>"; };
+		87FFA8FE26A5D7C4FD249D14433B3156 /* EasyNetRequest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyNetRequest.xcconfig; sourceTree = "<group>"; };
+		89B3809638AF8681A2A17FC87FD39654 /* EasyNetRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyNetRequest-dummy.m"; sourceTree = "<group>"; };
+		97768437377F006E09C715FC07CF8AFB /* Pods-EasyNetRequest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyNetRequest_Tests.modulemap"; sourceTree = "<group>"; };
+		9A69A82010C7F3214BCC52F6AFFFDE7A /* Pods-EasyNetRequest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EasyNetRequest_Example.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA12235702945022ED174DB1D4FDAAC /* Pods-EasyNetRequest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyNetRequest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9E04E8E68C8581A15CCB93F96801CE83 /* Pods-EasyNetRequest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyNetRequest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8D50BC9FF3B457400FEB3781D7AA84F /* Pods-EasyNetRequest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNetRequest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADC81B2929BDDD6C21BDE9075A9285D1 /* Pods-EasyNetRequest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyNetRequest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD9BDDD2629A3382DBB0D918F639759F /* Pods-EasyNetRequest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyNetRequest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C1F868A213D2E5CBCA5C8414C0909288 /* Pods-EasyNetRequest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyNetRequest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAE00CF778F77346F306386F496BAE5F /* EasyNetRequest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EasyNetRequest-Info.plist"; sourceTree = "<group>"; };
+		CEF2E6E413BDF793F33C571F234446AC /* Pods-EasyNetRequest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyNetRequest_Tests-dummy.m"; sourceTree = "<group>"; };
+		D06CE6617F02BAB43BDAD4AFD6175A6A /* Pods-EasyNetRequest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNetRequest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E2734544180A347ADFC37E5B18F94296 /* EasyNetRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EasyNetRequest.swift; path = EasyNetRequest/Classes/EasyNetRequest.swift; sourceTree = "<group>"; };
+		F0C370A4E5866676CD47DB36AB3D39DD /* EasyNetRequest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = EasyNetRequest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F795C95A14FC6D1A79CE9803DF81BA48 /* Pods_EasyNetRequest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyNetRequest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8825E0A87E632371EC410301C8C964F /* EasyNetRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNetRequest-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B850C37B58477092BF37C77E6D1874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C54D645D55D9DFE3DB34FAC85956CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF008D4FBDA0D63FE40F6435C715CA4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B17FA7E901379673879CF48177AF3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F35CCF1ABC8E92ABCAA5EA167E9FAE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B750820A2BACC3CD0B41EE93F3993D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259F474DAA5B47B398469A64A049B4B7 /* Pods-EasyNetRequest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9A69A82010C7F3214BCC52F6AFFFDE7A /* Pods-EasyNetRequest_Example.modulemap */,
+				ADC81B2929BDDD6C21BDE9075A9285D1 /* Pods-EasyNetRequest_Example-acknowledgements.markdown */,
+				9E04E8E68C8581A15CCB93F96801CE83 /* Pods-EasyNetRequest_Example-acknowledgements.plist */,
+				2182E0F46B6F15FCD0A2A6DD1395E65A /* Pods-EasyNetRequest_Example-dummy.m */,
+				1C2A10458DF3ED23B3C5261C3E1FE2E2 /* Pods-EasyNetRequest_Example-frameworks.sh */,
+				4B9FE3B3C4679238B9DA41CA1DD78783 /* Pods-EasyNetRequest_Example-Info.plist */,
+				6C1C34044868E44B222F5382F876C56C /* Pods-EasyNetRequest_Example-umbrella.h */,
+				D06CE6617F02BAB43BDAD4AFD6175A6A /* Pods-EasyNetRequest_Example.debug.xcconfig */,
+				1580C0EE0CAE39AF3394C9E698537AB8 /* Pods-EasyNetRequest_Example.release.xcconfig */,
+			);
+			name = "Pods-EasyNetRequest_Example";
+			path = "Target Support Files/Pods-EasyNetRequest_Example";
+			sourceTree = "<group>";
+		};
+		2A20C48D1F80D812526595E26BD89E46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				061A4B2319244A52DAC201B685C519BA /* EasyNetRequest.modulemap */,
+				87FFA8FE26A5D7C4FD249D14433B3156 /* EasyNetRequest.xcconfig */,
+				89B3809638AF8681A2A17FC87FD39654 /* EasyNetRequest-dummy.m */,
+				CAE00CF778F77346F306386F496BAE5F /* EasyNetRequest-Info.plist */,
+				F8825E0A87E632371EC410301C8C964F /* EasyNetRequest-prefix.pch */,
+				264EB48B01B8C0B74670739452CF71AC /* EasyNetRequest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasyNetRequest";
+			sourceTree = "<group>";
+		};
+		2C338021DC6365F25F63A81F8A5BF0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C757E825977739BC8A6F24209114C8F /* EasyNetRequest.framework */,
+				514ECF42DDB3E29B4F91C5A6FB53D4F4 /* Pods_EasyNetRequest_Example.framework */,
+				F795C95A14FC6D1A79CE9803DF81BA48 /* Pods_EasyNetRequest_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76909EE30F7FAF7C4780CE5C048E0AED /* Pods-EasyNetRequest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				97768437377F006E09C715FC07CF8AFB /* Pods-EasyNetRequest_Tests.modulemap */,
+				C1F868A213D2E5CBCA5C8414C0909288 /* Pods-EasyNetRequest_Tests-acknowledgements.markdown */,
+				9DA12235702945022ED174DB1D4FDAAC /* Pods-EasyNetRequest_Tests-acknowledgements.plist */,
+				CEF2E6E413BDF793F33C571F234446AC /* Pods-EasyNetRequest_Tests-dummy.m */,
+				2EFA71E18F58D8DCC6C7F03C40E1E3F7 /* Pods-EasyNetRequest_Tests-Info.plist */,
+				BD9BDDD2629A3382DBB0D918F639759F /* Pods-EasyNetRequest_Tests-umbrella.h */,
+				A8D50BC9FF3B457400FEB3781D7AA84F /* Pods-EasyNetRequest_Tests.debug.xcconfig */,
+				33305C8F4C675876314CE7DB371B4E81 /* Pods-EasyNetRequest_Tests.release.xcconfig */,
+			);
+			name = "Pods-EasyNetRequest_Tests";
+			path = "Target Support Files/Pods-EasyNetRequest_Tests";
+			sourceTree = "<group>";
+		};
+		BDDA63E17A269D80DA06E2A08FA78361 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F63B97E3C26AA401F8E42AE9F195C /* EasyNetRequest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7B5180FA94C578EE4FC262F83747943 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				259F474DAA5B47B398469A64A049B4B7 /* Pods-EasyNetRequest_Example */,
+				76909EE30F7FAF7C4780CE5C048E0AED /* Pods-EasyNetRequest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BDDA63E17A269D80DA06E2A08FA78361 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C338021DC6365F25F63A81F8A5BF0E8 /* Products */,
+				C7B5180FA94C578EE4FC262F83747943 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC2F63B97E3C26AA401F8E42AE9F195C /* EasyNetRequest */ = {
+			isa = PBXGroup;
+			children = (
+				E2734544180A347ADFC37E5B18F94296 /* EasyNetRequest.swift */,
+				E8DEDF0874A07B5363AE688FB369135C /* Pod */,
+				2A20C48D1F80D812526595E26BD89E46 /* Support Files */,
+			);
+			name = EasyNetRequest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E8DEDF0874A07B5363AE688FB369135C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0C370A4E5866676CD47DB36AB3D39DD /* EasyNetRequest.podspec */,
+				508F90067CDD9F7A25835437FAF31B84 /* LICENSE */,
+				1BB285327234676A58EC1792B54571D7 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FCBE282E8B579E0F9354301FB4B07CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62A4B2DFF4E6823489CB9E2FAE07C81 /* EasyNetRequest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CDACE72AFFDB13787A4CA85020EFD29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6B87F800A1349BE59083116B1342EA /* Pods-EasyNetRequest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C609B3B32E2A7B22B6F51C4B10FEA6BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A363CC92CF23FFC3DF53802C4B0A06A8 /* Pods-EasyNetRequest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3316AAE497A983A9A9CD67B699BD4376 /* EasyNetRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 024756FE958E8CE2368BA94051F579CF /* Build configuration list for PBXNativeTarget "EasyNetRequest" */;
+			buildPhases = (
+				3FCBE282E8B579E0F9354301FB4B07CC /* Headers */,
+				9B6AB15887D351CD2047681BBF5A8F8A /* Sources */,
+				CF008D4FBDA0D63FE40F6435C715CA4A /* Frameworks */,
+				038CBDE84863B3D8A7081188335C1D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyNetRequest;
+			productName = EasyNetRequest;
+			productReference = 2C757E825977739BC8A6F24209114C8F /* EasyNetRequest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E6567DEB602A9A02102121CD1A4DD9B /* Pods-EasyNetRequest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C08F5AABDE94848DBDE3A8D2A1949577 /* Build configuration list for PBXNativeTarget "Pods-EasyNetRequest_Tests" */;
+			buildPhases = (
+				C609B3B32E2A7B22B6F51C4B10FEA6BF /* Headers */,
+				D39976656AC2502103B36749A2FFD776 /* Sources */,
+				44B850C37B58477092BF37C77E6D1874 /* Frameworks */,
+				66773DDBBA53EF89B7D0FA82F9DE1B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEEABC2A280AFBA370510A4F1EFC2FD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyNetRequest_Tests";
+			productName = "Pods-EasyNetRequest_Tests";
+			productReference = F795C95A14FC6D1A79CE9803DF81BA48 /* Pods_EasyNetRequest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C21B5B7FFE7E4FD3041A69F277ED812E /* Pods-EasyNetRequest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88296A14FF4B20F3CE99247C381C6DBC /* Build configuration list for PBXNativeTarget "Pods-EasyNetRequest_Example" */;
+			buildPhases = (
+				4CDACE72AFFDB13787A4CA85020EFD29 /* Headers */,
+				9E8CA542B9565C7E68020A7D9544657F /* Sources */,
+				F35CCF1ABC8E92ABCAA5EA167E9FAE8D /* Frameworks */,
+				76C25C0CD03C308F9CE581E50894FEC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F519DB5C79C626F8561BDEC61CEB0D68 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyNetRequest_Example";
+			productName = "Pods-EasyNetRequest_Example";
+			productReference = 514ECF42DDB3E29B4F91C5A6FB53D4F4 /* Pods_EasyNetRequest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					3316AAE497A983A9A9CD67B699BD4376 = {
+						DevelopmentTeam = EUARY92ECY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C338021DC6365F25F63A81F8A5BF0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3316AAE497A983A9A9CD67B699BD4376 /* EasyNetRequest */,
+				C21B5B7FFE7E4FD3041A69F277ED812E /* Pods-EasyNetRequest_Example */,
+				6E6567DEB602A9A02102121CD1A4DD9B /* Pods-EasyNetRequest_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		038CBDE84863B3D8A7081188335C1D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66773DDBBA53EF89B7D0FA82F9DE1B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76C25C0CD03C308F9CE581E50894FEC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6AB15887D351CD2047681BBF5A8F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7CE69E35A610101D690ABB4DF9AFDD /* EasyNetRequest-dummy.m in Sources */,
+				276D8FE7D42DA96376417E7867BEA804 /* EasyNetRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8CA542B9565C7E68020A7D9544657F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156C80D912245A4D590653BC70F9353 /* Pods-EasyNetRequest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39976656AC2502103B36749A2FFD776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBCE5A59FBD4C32C999D2484BF38CEF /* Pods-EasyNetRequest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F519DB5C79C626F8561BDEC61CEB0D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNetRequest;
+			target = 3316AAE497A983A9A9CD67B699BD4376 /* EasyNetRequest */;
+			targetProxy = 2FF1714ADFBE52C50125B3753D145DDD /* PBXContainerItemProxy */;
+		};
+		FEEABC2A280AFBA370510A4F1EFC2FD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EasyNetRequest_Example";
+			target = C21B5B7FFE7E4FD3041A69F277ED812E /* Pods-EasyNetRequest_Example */;
+			targetProxy = 5C236B3DCD9B353CB32A5B0A048479B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C368D04E5B617D7003AACC6AD773050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D50BC9FF3B457400FEB3781D7AA84F /* Pods-EasyNetRequest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNetRequest_Tests/Pods-EasyNetRequest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNetRequest_Tests/Pods-EasyNetRequest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B5AFD3EBA27608D49DB636D2F0000162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1580C0EE0CAE39AF3394C9E698537AB8 /* Pods-EasyNetRequest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNetRequest_Example/Pods-EasyNetRequest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNetRequest_Example/Pods-EasyNetRequest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C333B7A20672B9420CABBDA7F94D8CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06CE6617F02BAB43BDAD4AFD6175A6A /* Pods-EasyNetRequest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNetRequest_Example/Pods-EasyNetRequest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNetRequest_Example/Pods-EasyNetRequest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C88B21A06BE4DDC53C7487F73FC70D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FFA8FE26A5D7C4FD249D14433B3156 /* EasyNetRequest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EUARY92ECY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNetRequest/EasyNetRequest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNetRequest/EasyNetRequest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyNetRequest/EasyNetRequest.modulemap";
+				PRODUCT_MODULE_NAME = EasyNetRequest;
+				PRODUCT_NAME = EasyNetRequest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E8E51C81EF73A94F51F3A7064CCC0AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33305C8F4C675876314CE7DB371B4E81 /* Pods-EasyNetRequest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNetRequest_Tests/Pods-EasyNetRequest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNetRequest_Tests/Pods-EasyNetRequest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF96C8D3D1AFA3A4927B660ACA7486E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FFA8FE26A5D7C4FD249D14433B3156 /* EasyNetRequest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = EUARY92ECY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNetRequest/EasyNetRequest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNetRequest/EasyNetRequest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyNetRequest/EasyNetRequest.modulemap";
+				PRODUCT_MODULE_NAME = EasyNetRequest;
+				PRODUCT_NAME = EasyNetRequest;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		024756FE958E8CE2368BA94051F579CF /* Build configuration list for PBXNativeTarget "EasyNetRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88B21A06BE4DDC53C7487F73FC70D67 /* Debug */,
+				FF96C8D3D1AFA3A4927B660ACA7486E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88296A14FF4B20F3CE99247C381C6DBC /* Build configuration list for PBXNativeTarget "Pods-EasyNetRequest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C333B7A20672B9420CABBDA7F94D8CFD /* Debug */,
+				B5AFD3EBA27608D49DB636D2F0000162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C08F5AABDE94848DBDE3A8D2A1949577 /* Build configuration list for PBXNativeTarget "Pods-EasyNetRequest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C368D04E5B617D7003AACC6AD773050 /* Debug */,
+				E8E51C81EF73A94F51F3A7064CCC0AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

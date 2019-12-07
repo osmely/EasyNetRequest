@@ -18,14 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    EasyNetRequest es un conjunto de estructuras escritas en Swift 5 (compatibles con Swift 4) para construir el modulo de redes de una app IOS. Los desarrolladores pueden construir el modulo de llamadas a Api creando los endpoints necesarios de una manera muy simple. Esta lib emplea Codable de swift y no tiene dependencias externas. Esta lib esta basada en el desarrollo de Fernando Martín Ortiz (https://github.com/fmo91/Conn.git)
                        DESC
 
-  s.homepage         = 'https://github.com/m-kinesis/EasyNetRequest'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/osmely/EasyNetRequest'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'm-kinesis' => 'osmelyf@gmail.com' }
-  s.source           = { :git => 'https://github.com/m-kinesis/EasyNetRequest.git', :tag => s.version.to_s }
+  s.author           = { 'Osmely Fernandez' => 'osmelyf@gmail.com' }
+  s.source           = { :git => 'https://github.com/osmely/EasyNetRequest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

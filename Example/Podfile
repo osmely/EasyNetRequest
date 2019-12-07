@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EasyNetRequest_Example' do
+  pod 'EasyNetRequest', :path => '../'
+
+  target 'EasyNetRequest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

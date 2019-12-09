@@ -5,24 +5,43 @@
 [![License](https://img.shields.io/cocoapods/l/EasyNetRequest.svg?style=flat)](https://cocoapods.org/pods/EasyNetRequest)
 [![Platform](https://img.shields.io/cocoapods/p/EasyNetRequest.svg?style=flat)](https://cocoapods.org/pods/EasyNetRequest)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
-EasyNetRequest is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+EasyNetRequest esta disponible mediante [CocoaPods](https://cocoapods.org). Para instalarlo agrege esta linea
+en su Podfile:
 
 ```ruby
 pod 'EasyNetRequest'
 ```
 
+## Como usarlo?
+
+```swift
+struct User: Codable {
+    let id: Int
+    let username: String
+}
+
+struct GetAllUsers: EasyNetRequest {
+    typealias EasyNetResponseType = [User]
+    
+    var data: EasyNetRequestData {
+        return EasyNetRequestData(path: "https://jsonplaceholder.typicode.com/users", method: .GET)
+    }
+    
+    var validators: [EasyNetResponseValidator]? { nil }
+}
+
+if let users = try? result.get() {
+            
+}
+```
+
 ## Author
 
 Osmely Fernandez <osmelyf@gmail.com> 
+
 
 ## License
 
